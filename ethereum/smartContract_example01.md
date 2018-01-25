@@ -122,7 +122,7 @@ var greeter = eth.contract(ABI).at(Address);
 greeter.kill.sendTransaction({from:eth.accounts[0]})
 ```
 
-###参考文献
+### 参考文献
 [THE GREETER YOUR DIGITAL PAL WHO'S FUN TO BE WITH](
 https://www.ethereum.org/greeter#compiling-your-contract)
 
