@@ -166,13 +166,13 @@ message Block {
 
 其中，桶的内容由它所保存到键值先按照 chaincodeID 聚合，再按照升序方式组成。
 
-一般地，假设某桶中包括 $$ M $$ 个 chaincodeID，对于 $$ chaincodeID_i $$，假设其包括 $$ N $$ 个键值对，则聚合 $$G_i$$ 内容可以计算为：
+一般地，假设某桶中包括 $ M $ 个 chaincodeID，对于 $ chaincodeID_i $，假设其包括 $ N $ 个键值对，则聚合 $G_i$ 内容可以计算为：
 
-$$ G_i = Len(chaincodeID_i) + chaincodeID_i + N + \sum_{1}^{N} {len(key_j) + key_j + len(value_j) + value_j} $$
+$ G_i = Len(chaincodeID_i) + chaincodeID_i + N + \sum_{1}^{N} {len(key_j) + key_j + len(value_j) + value_j} $
 
 该桶的内容则为
 
-$$ bucket = \sum_{1}^{M} G_i $$
+$ bucket = \sum_{1}^{M} G_i $
 
 *注：这里的 `+` 代表字符串拼接，并非数学运算。*
 
