@@ -1,10 +1,6 @@
 # 区块链技术指南
 
-> 原文：[区块链技术指南](https://github.com/yeasy/blockchain_guide)
-
-> 作者：[yeasy](https://github.com/yeasy)
-
-> 版本：0.9.0
+> 本开源书 forked from [区块链技术指南](https://github.com/yeasy/blockchain_guide)，作者为 [yeasy](https://github.com/yeasy)，欢迎大家 star 原作者的 [repo](https://github.com/yeasy/blockchain_guide)，以便获得最新更新，谢谢！
 
 
 区块链技术是金融科技（Fintech）领域的一项重要技术创新。
